@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body {
+  background-color: #1e1e1e; 
+  color: #fff; 
+  font-family: Arial, sans-serif; 
+}
+
+.main {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #333; 
+  color: #fff; 
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; 
+  color: #fff; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
+
+.rlist {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+  background-color: #333; 
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.list li:hover {
+  background-color: #555; 
+}
+
+
+.keyboard-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+  width: 400px;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.key {
+  padding: 10px;
+  text-align: center;
+  background-color: #555;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.key:hover {
+  background-color: #777;
+}
+
+#keyboard-output {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
